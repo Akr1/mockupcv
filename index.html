@@ -1,0 +1,110 @@
+<!-- THANKS to the emmet plugin, we can simply write "html" in an empty file and
+  click on the prompt to get boiler plate template"-->
+<!DOCTYPE html>
+<!--First line declares the document type. Version of html that
+  we are using (here we are using latest version: html 5)-->
+<html lang="en" dir="ltr">
+<!--Second line is the html tag. Tells the browser
+  that everything in between the html tags is going to be html code. Consists of
+  a head and a body-->
+
+<head>
+  <!--The head is the part of the html file that holds information about
+    the webpage and tells the browser how it should handle the page-->
+  <meta charset="utf-8">
+  <!-- It gives extra meta data/ associated
+      data to the html document. In this case, it indicates that our website
+      is encoded using the UTF-8 encoding system. charset is the attribute of
+      the meta element/tag-->
+  <title>Sealion</title>
+</head>
+
+<body>
+  <!--Styling in pure html not really done anymore but we haven't reached css yet-->
+  <table cellspacing="20">
+    <tr>
+      <td><img src="images/sealion.png" alt="profile picture"></td>
+      <td>
+        <h1>Sea lion</h1>
+        <!--The p tag stands for paragraph. It formats the text inside the tags
+        into a paragraph. This means that it gets a new line and the text inside
+        the gets grouped together into the same paragraph-->
+        <p>
+          <!-- em and i both visually italicize the text/style the text.
+           The difference comes from the fact that emphasis tag tells the browser the
+           words that are enclosed between it should be stressed or emphasized.
+           So used em instead of i. In the same vein, used strong tag instead of bold
+           -->
+          <em>Creator of the </em><em><strong>redacted</strong></em> series.
+        </p>
+        <p>
+          redacted.
+        </p>
+      </td>
+    </tr>
+  </table>
+
+  <!--image element-->
+  <!--self enclosing tag in which you NEED to specify the attribute src-->
+  <!--alt text is important for SEO-->
+
+  <!--Content of the website-->
+  <hr>
+  <h3>Works</h3>
+  <ul type="square">
+    <li>The <a href="Tseries.html"><em><strong>water</strong></em></a> series.</li>
+    <ul>
+      <li>Different worlds in a variety of mediums made out of personal experience, observations,
+        and images from the unconscious.</li>
+    </ul>
+    <li>Anidoodles</li>
+    <ul>
+      <li>Animations and doodles.</li>
+    </ul>
+  </ul>
+  <hr>
+  <h3>Work experience</h3>
+  <!--Tables useful for organizing and structuring data-->
+  <!--tr stands for table row and td stands for table data-->
+  <!-- Much like the html page itself, tables have a table header th, table body tbody, and table footer tfoot-->
+  <table cellspacing="10">
+    <thead>
+      <tr>
+        <!--Instead of table data td, in the thead, we use th table header cell-->
+        <th>Date</th>
+        <th>Position</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2020-2021</td>
+        <td>uOttawa researcher</td>
+      </tr>
+      <tr>
+        <td>2021</td>
+        <td>independent artist and programmer</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <h3>Skills</h3>
+  <table cellspacing="10">
+    <tr>
+      <td>Web Development ⭐️⭐️</td>
+      <td>Pixel Art ⭐️</td>
+    </tr>
+    <tr>
+      <td>Game Development ⭐️</td>
+      <td>Video Editing ⭐️</td>
+    </tr>
+  </table>
+  <hr>
+  <br>
+  <a href="contact.html">
+    <h4>Contact me</h4>
+  </a>
+
+
+</body>
+
+</html>
